@@ -1,0 +1,42 @@
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip {
+    position: absolute;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    z-index: 999;
+  }
+  
+  .tooltip.center {
+    text-align: center;
+    top: 0%;
+  }
+  .tooltip.top {
+    top: -120%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .tooltip.bottom {
+    bottom: -120%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .tooltip.left {
+    top: 50%;
+    left: -120%;
+    transform: translateY(-50%);
+  }
+  
+  .tooltip.right {
+    top: 50%;
+    right: -120%;
+    transform: translateY(-50%);
+  }
+  
