@@ -49,13 +49,13 @@ Your app is ready to be deployed!
 See the section about deployment for more information.
 
 explain-------    
- ```sh
+ ```
    
    I have provided you with a simple example of a tooltip component in React that accepts a position prop for rendering the tooltip in different positions. You can adapt and style it according to your needs.
  ```
 
 Code and Structure
-```sh
+```
    
      index.js -> main file 
      App.js ->have two things !. heading 2.Option componenet
