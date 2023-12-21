@@ -25,21 +25,26 @@ This starter pack includes a basic setup for using **Tailwind CSS with React**. 
 1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
 
 The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+1. In the project directory, you can run:
+```sh
+    npm start
+```
 
-In the project directory, you can run:
-
-npm start
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 
 The page will reload when you make changes.
 You may also see any lint errors in the console.
+```sh
+    npm test
+```
 
-npm test
 Launches the test runner in the interactive watch mode.
 See the section about running tests for more information.
+```sh
+    npm run build
+```
 
-npm run build
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
